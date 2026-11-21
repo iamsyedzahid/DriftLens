@@ -1,0 +1,13 @@
+strategy,block,blockStart,modelFitStart,modelFitEnd,calibrationStart,calibrationEnd,leakageFree
+frozen,0,24712,0,20594,,,True
+frozen,1,28831,0,20594,,,True
+frozen,2,32950,0,20594,,,True
+frozen,3,37069,0,20594,,,True
+recalibrated,0,24712,0,20594,20594.0,24712.0,True
+recalibrated,1,28831,0,20594,24712.0,28831.0,True
+recalibrated,2,32950,0,20594,28831.0,32950.0,True
+recalibrated,3,37069,0,20594,32950.0,37069.0,True
+rolling,0,24712,0,24712,,,True
+rolling,1,28831,0,28831,,,True
+rolling,2,32950,0,32950,,,True
+rolling,3,37069,0,37069,,,True

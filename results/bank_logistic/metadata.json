@@ -1,0 +1,98 @@
+{
+  "config": {
+    "seed": 42,
+    "trainFraction": 0.5,
+    "calibrationFraction": 0.1,
+    "numEvalBlocks": 4,
+    "modelName": "logistic",
+    "topFraction": 0.1,
+    "coverageLevels": [
+      1.0,
+      0.9,
+      0.8,
+      0.7,
+      0.6,
+      0.5
+    ],
+    "calibrationBins": 10,
+    "bootstrapSamples": 200,
+    "dropColumns": [
+      "duration"
+    ],
+    "targetColumn": "y",
+    "stressSeverities": [
+      0.0,
+      0.25,
+      0.5,
+      1.0
+    ]
+  },
+  "manifest": {
+    "numRows": 41188,
+    "trainRange": [
+      0,
+      20594
+    ],
+    "calibrationRange": [
+      20594,
+      24712
+    ],
+    "evalRanges": [
+      [
+        24712,
+        28831
+      ],
+      [
+        28831,
+        32950
+      ],
+      [
+        32950,
+        37069
+      ],
+      [
+        37069,
+        41188
+      ]
+    ]
+  },
+  "versions": {
+    "python": "3.15.0",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "scikitLearn": "1.9.1"
+  },
+  "sourceChecksum": "74adfc578bf77a7ff4bb1ba4a9f8709d9e3c6907342959c2c8416847e0afb4d8",
+  "numRows": 41188,
+  "positiveRate": 0.11265417111780131,
+  "leakageColumnsExcluded": [
+    "duration"
+  ],
+  "unexcludedLeakage": [],
+  "numericColumns": [
+    "age",
+    "campaign",
+    "pdays",
+    "previous",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed"
+  ],
+  "categoricalColumns": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "poutcome"
+  ],
+  "allLeakageFree": true,
+  "corrMeanKsVsFrozenPrAuc": 0.046366787874329275,
+  "runSeconds": 16.989149499999712
+}
