@@ -8,3 +8,8 @@ results/latest/
 # unrelated documents
 Research_Proposal_AI_Personalized_Learning*.docx
 ~$*
+
+# local presentation material (not part of the repo)
+docs/*.pptx
+docs/*.docx
+docs/demoScript.md
