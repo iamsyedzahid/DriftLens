@@ -195,8 +195,7 @@ stays intact.
 ## 7. Ethics and reproducibility
 Public dataset (CC BY 4.0), with no new personal data. Each run saves its config, split manifest,
 seed, software versions (Python 3.15.0, numpy 2.5.5, pandas 3.1.1, scikit-learn 1.9.1) and data
-checksum. The clean-run steps are in `docs/reproducibility.md`, and AI assistance is disclosed in
-`docs/AI_USE.md`. Negative findings (block 0, recalibration reversals, weak drift correlation) are
+checksum. The clean-run steps are in `docs/reproducibility.md`. Negative findings (block 0, recalibration reversals, weak drift correlation) are
 reported in full.
 
 ## References

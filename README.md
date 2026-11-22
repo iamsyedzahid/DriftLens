@@ -29,8 +29,7 @@ driftLens/
 ├── docs/
 │   ├── report.md              # research-style report (draft)
 │   ├── literatureMatrix.md    # annotated literature matrix
-│   ├── reproducibility.md     # clean-run checklist
-│   └── AI_USE.md              # AI-use disclosure
+│   └── reproducibility.md     # clean-run checklist
 ├── requirements.txt, pyproject.toml
 └── DriftLens_Project_Proposal.pdf
 ```
@@ -63,5 +62,5 @@ and `report.md`.
 - Every run saves its config, split manifest, versions and data checksum.
 - Row order stands in for time, and the stress tests are synthetic.
 
-## Limitations and AI use
-See [docs/report.md](docs/report.md) §6 and [docs/AI_USE.md](docs/AI_USE.md).
+## Limitations
+See [docs/report.md](docs/report.md) §6.
